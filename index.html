@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <meta name="viewport" content="width=device-width, max-width=600, max-height=800, initial-scale=1">
+    <title>Rock Paper Scissors</title>
+   <!-- <script src="./rps.js"></script> -->
+   <link href="./rps.css" rel = "stylesheet">
+
+
+</head>
+<body>
+    <!-- Banner Section -->
+        <div id="banner1">    
+            <h1>Let's Play Rock Paper Scissors</h1>
+            <img src="./resources/images/game images/rock1.png" width="200" height="200">
+            <img src="./resources/images/game images/paper3.png" width="200" height="200">
+            <img src="./resources/images/game images/scissors1.png" width="200" height="200">
+        </div>
+
+     
+    <!-- Get users choice -->
+ <div>
+        <form action="./rps.js" method="POST">
+            <select id="choice" name="choice">
+                <option align = "left">Select Here</option>
+                <option align = "left" value="rock">Rock</option>
+                <option align = "left" value="paper">Paper</option>
+                <option align = "left" value="scissors">Scissors</option>
+                <br>
+               
+           </select>
+        </form>
+    </div>
+ 
+    <div id="gameImages" > </div>
+ 
+    <div id="gameresults">
+
+        <p id="results" style="color:red; font-size: 50px;"  ></p>   
+        <p id="winner" style="color:green; font-size: 50px;"></p>
+
+    </div>
+
+<script src="./rps.js"></script> 
+     
+    </body>
+</html>
