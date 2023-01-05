@@ -11,7 +11,7 @@ body {
 #userSelects {
 
     padding-top: 30px;
-    margin: auto;
+    margin: auto auto auto auto;
 }  
 h1 {
     color:red;
