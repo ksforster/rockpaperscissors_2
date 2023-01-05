@@ -153,7 +153,7 @@ function playGame() {
      });   
 }
 /*
-      document.getElementById("results").innerHTML = `User selected ${event.target.value} and computer selected ${computerChoice}.`;
+      document.getElementById("results").innerHTML = `User selected ${event.target.value} computer selected ${computerChoice}.`;
               
       document.getElementById("winner").innerHTML = `${determineWinner(userChoice, computerChoice)} `;
 */
