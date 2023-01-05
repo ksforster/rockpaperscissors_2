@@ -4,7 +4,8 @@ body {
     /* text-align:center; */ 
     background-color: #0a0a0a;
     /* #0a0a0a; */
-    
+    max-width: 500px;
+    margin: auto;
    }
 
 #userSelects {
