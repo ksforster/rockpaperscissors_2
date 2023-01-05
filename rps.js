@@ -87,55 +87,56 @@ function playGame() {
          if (event.target.value === 'rock' && computerChoice === 'rock'){
                  /* console.log("rock rock"); */
                   document.getElementById("gameImages").innerHTML = 
-            "<img src = './resources/images/game images/rock_rock.jpg'>";
+            "<img src = './resources/images/game images/rock_rock2a.jpg'>";
                                                                                
              } else if (event.target.value === 'rock' && computerChoice === 'paper'){
                   /* console.log("rock paper"); */ 
                   document.getElementById("gameImages").innerHTML =
-                "<img src = './resources/images/game images/rock_paper.jpg'>";
+                "<img src = './resources/images/game images/rock_paper2a.jpg'>";
 
                                   
              } else if (event.target.value === 'rock' && computerChoice === 'scissors'){
                   /* console.log("rock scissors"); */
 
-                  document.getElementById("gameImages").innerHTML = "<img src = './resources/images/game images/rock_scissors.jpg'>";
+                  document.getElementById("gameImages").innerHTML
+                  = "<img src = './resources/images/game images/rock_scissors2a.jpg'>";
 
                
              } else if (event.target.value === 'paper' && computerChoice === 'rock'){
                   /* console.log('paper rock'); */ 
                   document.getElementById("gameImages").innerHTML
-                  = "<img src = './resources/images/game images/paper_rock.jpg'>";
+                  = "<img src = './resources/images/game images/paper_rock2a.jpg'>";
 
                  
              } else if (event.target.value === 'paper' && computerChoice === 'paper'){
                   /* console.log('paper paper'); */
                   document.getElementById("gameImages").innerHTML
-                  = "<img src = './resources/images/game images/paper_paper.jpg'>";
+                  = "<img src = './resources/images/game images/paper_paper2a.jpg'>";
 
               
              } else if (event.target.value === 'paper' && computerChoice === 'scissors'){
                   /* console.log('paper scissors'); */
                   document.getElementById("gameImages").innerHTML
-                  = "<img src = './resources/images/game images/paper_scissors.jpg'>";
+                  = "<img src = './resources/images/game images/paper_scissors2a.jpg'>";
 
                   
              } else if (event.target.value === 'scissors' && computerChoice === 'rock'){
                   /* console.log('scissors rock'); */
                   document.getElementById("gameImages").innerHTML
-                  = "<img src = './resources/images/game images/scissors_rock.jpg'>";
+                  = "<img src = './resources/images/game images/scissors_rock2a.jpg'>";
 
                  
                    
              } else if (event.target.value === 'scissors' && computerChoice === 'paper'){
                   /* console.log('scissors paper'); */
                   document.getElementById("gameImages").innerHTML
-                  = "<img src = './resources/images/game images/scissors_paper.jpg'>";
+                  = "<img src = './resources/images/game images/scissors_paper2a.jpg'>";
 
            
              } else if (event.target.value === 'scissors' && computerChoice === 'scissors'){
                   /* console.log('scissors scissors'); */
                   document.getElementById("gameImages").innerHTML
-                  = "<img src = './resources/images/game images/scissors_scissors.jpg'>";
+                  = "<img src = './resources/images/game images/scissors_scissors2a.jpg'>";
 
                      }
 
