@@ -142,7 +142,7 @@ function playGame() {
 
 /* The next two lines writes the choices and the results of the winner to html <p> tag */
    
-      var results1 = `You selected ${event.target.value} and computer selected ${computerChoice}.`;
+      var results1 = `You selected ${event.target.value} computer selected ${computerChoice}.`;
 
       document.getElementById("results").innerHTML = results1;
       
