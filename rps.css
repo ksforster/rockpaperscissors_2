@@ -16,7 +16,7 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     font-family: monospace;
-    text-align:center;
+    text-align: center;
 }
 
 #banner-pics {
@@ -70,6 +70,9 @@ html p {
     text-align: center;
 }
 
+#banner1{
+    text-align: center;
+}
 
      
 
