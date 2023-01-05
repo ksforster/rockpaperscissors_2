@@ -1,16 +1,17 @@
 
 
 body {
-    /* text-align:center; */ 
+    /* text-align:center; */
     background-color: #0a0a0a;
     /* #0a0a0a; */
-    max-width: fit-content(20em);
+    max-width: 500px;
     margin: auto;
    }
 
 #userSelects {
 
     padding-top: 30px;
+    margin: auto;
 }  
 h1 {
     color:red;
@@ -18,6 +19,8 @@ h1 {
     font-weight: bold;
     font-family: monospace;
     text-align: center;
+    padding-top: 50px;
+    margin: auto;
 }
 
 #banner-pics {
@@ -31,7 +34,7 @@ h1 {
     text-align: center;
     position: absolute;
     font-family: 'Ink Free';
-    
+    margin: auto;
     font-size: 50px;
     padding-bottom: 20px;
 }
@@ -39,9 +42,10 @@ h1 {
      /* position: absolute; */ 
     color: rgb(18, 199, 175);
     font-size: 50px;
+    margin: auto;
 }
 #choice {
-    
+    margin: auto;
     font-size: 30px;
     color: rgb(13, 14, 13);
     
@@ -57,14 +61,12 @@ h1 {
 }
 
 #gameImages {
-
+        
+        margin: auto;
         padding-top: 25px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 100%
-    
-   
+      
 }
 
 html p {
